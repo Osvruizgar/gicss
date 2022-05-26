@@ -1,0 +1,116 @@
+h1 {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 60px;
+}
+.grid-container {
+  margin: 9% auto;
+  width: 80%;
+  grid-column-gap: 10px;
+  display: grid;
+  background-color: white;
+  border-radius: 8px;
+  border: rgb(0, 0, 0);
+  border-style: solid;
+  border-width: thick;
+}
+#Ark {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+#MarioKart {
+  grid-column-start: 4;
+  grid-column-end: 8;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+#MarioOdyssey {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+#MarioGolf {
+  grid-column-start: 4;
+  grid-column-end: 8;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+#SuperSmash {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+#MarioBros {
+  grid-column-start: 4;
+  grid-column-end: 8;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+#allStars {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+#Party {
+  grid-column-start: 4;
+  grid-column-end: 9;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+.text {
+  text-align: center;
+}
+img {
+  margin-left: 10em;
+  width: 250px;
+  height: 250px;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(8, 64px);
+}
+
+.square {
+  width: 64px;
+  height: 64px;
+  background: black;
+}
+
+.white {
+  background: white;
+}
+#flag {
+  width: 450px;
+  border: 1px solid #ddd;
+  margin: 0 auto;
+  position: relative;
+}
+#blue {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150px;
+  height: 133px;
+  background-color: #00348c;
+  color: #fff;
+  text-align: center;
+}
+p {
+  height: 1px;
+  margin: 11px;
+}
+.stripe {
+  height: 19px;
+}
+.red {
+  background-color: #f70029;
+}
+.white {
+  background-color: #fff;
+}
