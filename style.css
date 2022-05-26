@@ -114,3 +114,22 @@ p {
 .white {
   background-color: #fff;
 }
+
+table {
+  width: 800px;
+}
+.td {
+  width: 800px;
+  color: red;
+  background-color: red;
+}
+.full {
+  color: white;
+  width: 800px;
+}
+.starsW {
+  background-image: linear-gradient(to right, blue 30%, white 30%);
+}
+.stars {
+  background-image: linear-gradient(to right, blue 30%, red 30%);
+}
